@@ -55,7 +55,7 @@
     color: black;
   }
   #mainNav .nav-link:hover {
-    color: rgba(255, 255, 255, 0.75);
+    color: #0070c9;
   }
   #mainNav .nav-link:active {
     color: white;
@@ -161,9 +161,14 @@
   background-color: 0592FF !important;
 }
 
+.btn-secondary {
+  color: #fff;
+  background-color: #020202;
+}
+
 .about-section {
   padding-top: 10rem;
-  background: linear-gradient(to bottom, #161616 0%, rgba(22, 22, 22, 0.9) 75%, rgba(22, 22, 22, 0.8) 100%);
+  background: linear-gradient(to bottom, #161616 0%, rgba(2, 2,2, 0.9) 75%, rgba(0, 112, 201, 0.8) 100%);
 }
 
 .about-section p {
@@ -178,7 +183,7 @@
 
 
 .projects-section {
-  padding: 10rem 0;
+  padding: 3rem 0;
 }
 
 .projects-section .featured-text {
@@ -188,7 +193,8 @@
 @media (min-width: 992px) {
   .projects-section .featured-text {
     padding: 0 0 0 2rem;
-    border-left: 0.5rem solid #0070c9;
+    border-bottom: 0.35rem solid #0070c9;
+    margin: 2rem;
   }
 }
 
